@@ -1,0 +1,9 @@
+<% if params[:name].blank? && params[:adjective].blank? %>
+  <%=  @text %>
+<% else %>
+  <%= params[:name] %>
+  <%= params[:adjective] %>
+<% end %>
+
+
+
